@@ -26,7 +26,6 @@ The 4-microphone array captures spatial data, which the neural network classifie
 | `up-left` | Top-Left | **South-East (SE)** |
 | `unlabeled` | N/A | **Undetermined / Ambient** |
 
-*(Note: The model code inherently references standard screen coordinates like "up" and "bottom". Software interfacing with this board must translate these to the S/N/E/W coordinates defined above).*
 
 ## ⚙️ Architecture & Features
 
