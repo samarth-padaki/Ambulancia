@@ -65,14 +65,14 @@ Once flashed, the application launches automatically and streams structured outp
 1.  Open a terminal emulator (e.g., Tera Term).
 2.  Connect to the KitProg3 COM port using settings: **115200 baud, 8N1**[cite: 1].
 3.  Upon successful initialization, the console will clear and display:
-```text
+
     DEEPCRAFT Studio 4-Mic Example - CM55
-    ```
+    
 4.  As audio events occur, the terminal will continuously output raw AI data, followed by a detection event if the threshold is met[cite: 1]:
-```text
+
     AI_DATA:0.010,0.020,0.050,0.010,0.010,0.010,0.850,0.020,0.020
     >>> Detected: up (0.85)
-    ```
+    
 
 ## 📄 License & Dependencies
 
