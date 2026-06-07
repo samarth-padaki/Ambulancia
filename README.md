@@ -47,15 +47,15 @@ The 4-microphone array captures spatial data, which the neural network classifie
 
 1.  **Hardware Setup:** Position the board so the USB-C ports are facing upwards (South). Connect your USB-C cable.
 2.  **Clone the Repository:**
-```bash
+
     git clone [https://github.com/samarth-padaki/Ambulancia.git](https://github.com/samarth-padaki/Ambulancia.git)
     cd Ambulancia
-    ```
+    
 3.  **Build the Multi-Core Project:**
     The project relies on a 3-project structure (`proj_cm33_s`, `proj_cm33_ns`, and `proj_cm55`)[cite: 1]. Use the ModusToolbox library manager or Make to build the unified application:
-```bash
+
     make build TARGET=APP_KIT_PSE84_AI TOOLCHAIN=GCC_ARM CONFIG=Debug
-    ```
+    
 4.  **Program the Board:** Flash the compiled firmware onto the PSOC™ Edge MCU using your IDE or via the CLI programming tools provided by ModusToolbox.
 
 ## 📖 Usage & Serial Output
